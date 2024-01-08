@@ -1,6 +1,6 @@
 # SkyTours Website
 
-![Project Image](img/WhatsApp Image 2020-07-14 at 3.40.50 PM.jpeg)
+![Project Image](/img/WhatsApp Image 2020-07-14 at 3.40.50 PM.jpeg)
 
 Welcome to the SkyTours website project! This is a collaborative effort by a group of four students from the Web Design and Development tutorial group. The website is designed to provide information, interactivity, and a seamless user experience related to our chosen subject.
 
