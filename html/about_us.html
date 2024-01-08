@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title> About Us </title>
+   <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+   <header id="h1">
+      <nav id="nav-bar">
+	    <div class="container">
+	       <img src="../img/pic-2.jpg" alt="logo" width="160" height="160" class="logo">  
+                <ul>
+		           <li class="nav-right"> <a href="mainpagewebCW.html">Home</a> </li>
+			       <li class="nav-right"> <a href="form.html">Rating</a> </li>
+				   <li class="nav-right"> <a href="Art & craft1.html">Buy</a> </li>
+			       <li class="nav-right"> <a href="Quiz.html">Quiz</a> </li>
+			       <li class="nav-right"> <a href="">Gallery</a> </li>
+			       <li class="nav-right"> <a href="#">Others</a> 
+				             <ul>
+							    <li><a href="about_us.html">About</a></li>
+								<li><a href="project.html">India</a></li>
+								<li><a href="france.html">France</a></li>
+								<li><a href="Costarica.html">Costarica</a></li>
+								<li><a href="Uk.html">Londan</a></li>
+							 </ul>
+			       </li>
+				   
+                </ul>
+		 </div>
+	  </nav>
+	  <div id="heading">
+		    <h1> About Us </h1>
+	  </div>
+	  
+   </header>
+   
+   <section id="sec-1">
+     <div class="notes" id="c1">
+	    <p> This web page provide details about the Students who works on our group project </p> 
+	 </div>
+     <div class="grid-container">
+	   <div class="student-1">
+	      <div onmouseover="mouseON_1(std_1)" onmouseout="mouseOUT_1(std_1)" >
+		     <img src="../img/pic-14.jpeg" alt="student-1"  width= "225"  height="225" >
+		  </div>
+		  <p id="std_1"></P>
+	   </div>
+	   <div class="student-2">
+	      <div onmouseover="mouseON_2(std_2)" onmouseout="mouseOUT_2(std_2)">
+		     <img src="../img/pic-15.jpeg" alt="student-2"  width= "225"  height="225" >
+		  </div>
+		  <p id="std_2"></P>
+	   </div>
+	   <div class="student-3">
+	      <div onmouseover="mouseON_3(std_3)" onmouseout="mouseOUT_3(std_3)">
+		     <img src="../img/pic-16.jpg" alt="student-3"  width= "225"  height="225" >
+		  </div>
+		  <p id="std_3"></P>
+	   </div>
+	   <div class="student-4">
+	      <div onmouseover="mouseON_4(std_4)" onmouseout="mouseOUT_4(std_4)">
+		     <img src="../img/pic-18.jpeg" alt="student-4"  width= "225"  height="225" >
+		  </div>
+		  <p id="std_4"></P> 
+	   </div>
+	 </div>     
+   </section>
+   
+   <footer id="page-footer">
+        <div class="links-container">
+            <div class="group-links">
+                <h3 class="links-heading" id="on-this-page">About Us</h3>
+                <a href="#nav-bar" class="links" id="head-link">Heading</a>                    
+                <a id="imgs-link" class="links" href="#c1">Pictures</a>
+               
+            </div>
+            <div class="group-links">
+                <h3 class="links-heading" id="partB-page">Famous Places</h3>
+                <a href="Uk.html" class="links" id="uk-link">UK</a>
+                <a href="Costarica.html" class="links" id="cost-link">Costarica</a>
+                <a href="france.html" class="links" id="france-link">France</a>
+                <a href="project.html" class="links" id="india-link">India</a>
+            </div>
+            <div class="group-links">
+                <h3 class="links-heading" id="main-page">Main Pages</h3>
+                <a href="mainpagewebCW.html" class="links" id="home-link">Home</a>
+                <a href="Quiz.html" class="links" id="quiz-link">Quiz</a>
+                <a href="editer.html" class="links" id="editer-link">Editors</a>
+                <a href="svg.html" class="links" id="svg-link">Website Tree</a>
+            </div>
+        </div>
+        <div class="author">
+            <h4>Created By: J.Thuwarakan &copy;2020 </h2>
+        </div>
+    </footer>
+
+
+   
+   <script>
+      function mouseON_1(obj) {
+           obj.innerHTML = "Name = Binali <br>Role = Student 01"
+        }
+      function mouseOUT_1(obj) {
+           obj.innerHTML = "" 
+        }
+	  function mouseON_2(obj) {
+           obj.innerHTML = "Name = Rashfa <br>Role = Student 02"
+        }
+      function mouseOUT_2(obj) {
+           obj.innerHTML = ""
+        }
+	  function mouseON_3(obj) {
+           obj.innerHTML = "Name = J.Thuwarakan <br>Role = Student 03"
+		}
+      function mouseOUT_3(obj) {
+           obj.innerHTML = ""
+        }
+	  function mouseON_4(obj) {
+           obj.innerHTML = "Name = S.Nirahulan <br>Role = Student 04"
+        }
+      function mouseOUT_4(obj) {
+           obj.innerHTML = ""
+        }
+	  
+   </script>
+
+</body>
+</html>

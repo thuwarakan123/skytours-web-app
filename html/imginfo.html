@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gallery</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="../css/main.css">
+
+    </head>
+    <body id="gallery-body">
+
+        <header id="gallery-header">
+            <div id="header">
+                <nav id="nav-bar">
+                    <div class="container">
+                        <h1><a class="nav-links" href="../html/mainpagewebCW.html"><img src="../img/pic-2.png" alt="Logo" id="logo"></a></h1>
+                        <ul>
+                            <li>
+                                <div class="dropdown">
+                                    <a id="bg-color" class="dropbtn nav-links">Background-color</a>
+                                    <div class="dropdown-content background">
+                                    <a class="links" onclick="backColor('#ebeb00')">Yellow</a>
+                                    <a class="links" onclick="backColor('#3b3b3b')">Grey</a>
+                                    <a class="links" onclick="backColor('#add8e6')">Light Blue</a>
+                                    <a class="links" onclick="reset('bg')">Reset</a>
+                                </div>                        
+                            </li>
+                            <li>
+                                <div class="dropdown">
+                                    <a id="color" class="dropbtn nav-links">Color</a>
+                                    <div class="dropdown-content colors">
+                                        <a class="links" onclick="Color('#ff3b3b')">Red</a>
+                                        <a class="links" onclick="Color('#a700a7')">Purple</a>
+                                        <a class="links" onclick="Color('#237fff')">Blue</a> 
+                                        <a class="links" onclick="reset('color')">Reset</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="Quiz.html" class="nav-links">Quiz</a></li>
+                            <li><a href="Traval.html" class="nav-links">Buy</a></li>
+                        </ul>
+                        <div style="clear: both;"></div>       
+                    </div>
+                </nav>
+            </div>
+            <div id="landing-page">
+                <div class="container-1">
+                    <div class="landing-page-info">
+                        <h3 id="welcome-head" class="head">Welcome to our gallery</h3>
+                        <p id="welcome-mess" class="message">Look around! You may learn something new today.</p>
+                        <a href="#first-gallery-section" id="images-btn">Images</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="first-gallery-section">
+            <h1 id="imgs-heading" class="group-heading">Trending Tourist Places</h1>
+            <div class="imgs-container">
+                 <div class="img">
+                     <a href="#second-gallery-section" class="image" onmouseover="Change()" onmouseout="Rechange()" onclick="Show('singapore')"><img id="singapore" src="../img/asia-1782429_1920.jpg" alt="Singapore"></a>
+                </div>
+                <div class="img">
+                    <a href="#second-gallery-section" class="image" onmouseover="Change()" onmouseout="Rechange()" onclick="Show('eiffel')"><img id="france" src="../img/eiffel-tower-miniature-1386351.jpg" alt="France"></a>    
+                </div>
+                <div class="img">
+                    <a href="#second-gallery-section" class="image" onmouseover="Change()" onmouseout="Rechange()" onclick="Show('newyork')"><img id="newyork" src="../img/new-york-4340541_1920.jpg" alt="Newyork"></a>
+                </div>
+                <div class="img">
+                    <a href="#second-gallery-section" class="image" onmouseover="Change()" onmouseout="Rechange()" onclick="Show('uae')"><img id="uae" src="../img/uae.jpg" alt="UAE"></a>
+                </div>
+                <div class="img">
+                    <a href="#second-gallery-section" class="image" onmouseover="Change()" onmouseout="Rechange()" onclick="Show('bangkok')"><img id="bangok" src="../img/bangkok.jpg" alt="Bangkok"></a>
+                </div> 
+            </div>
+        </section>
+
+        <section id="second-gallery-section">
+            <h1 class="group-heading">More Info</h1>
+            <div id="second-section-container">
+                <!-- <a href="#header" id="bck-btn">X</a>     -->
+                <article class="info-container">
+                    <div>
+                        <span class="group">Name:</span>
+                        <span id="image-name" class="info"> </span>
+                    </div>
+                    <div>
+                        <span class="group">Location:</span>
+                        <span id="image-loc-name" class="info"> </span>
+                    </div>
+                    <div>
+                        <span class="group">Population:</span>
+                        <span id="image-place-population" class="info"> </span>
+                    </div>
+                    <div>
+                        <span class="group">History:</span>
+                        <span id="image-histroy" class="info"> </span>
+                    </div>    
+                </article>
+                <div class="large-img-container">
+                    <!-- image -->
+                    <img id="singapore-large-image" src="../img/asia-1782429_1920.jpg" alt="Singapore">
+
+                    <img id="france-large-image" src="../img/eiffel-tower-miniature-1386351.jpg" alt="France">
+
+                    <img id="newyork-large-image" src="../img/new-york-4340541_1920.jpg" alt="Newyork">
+
+                    <img id="uae-large-image" src="../img/uae.jpg" alt="UAE">
+
+                    <img id="bangkok-large-image" src="../img/bangkok.jpg" alt="Bangkok">
+                </div>
+            </div>
+        </section>
+
+        <footer id="gallery-footer">
+            <div class="links-container">
+                <div class="group-links">
+                    <h3 class="links-heading" id="on-this-page">Gallery</h3>
+                    <a href="#header" class="links" id="head-link">Gallery Home</a>                    
+                    <a id="imgs-link" class="links" href="#first-editor-section">Images</a>
+                    <a id="info-link" class="links" href="#second-editor-section" >More Info</a>
+                </div>
+                <div class="group-links">
+                    <h3 class="links-heading" id="partB-page">Famous Places</h3>
+                    <a href="Uk.html" class="links " id="uk-link">UK</a>
+                    <a href="costarica.html" class="links" id="cost-link">Costarica</a>
+                    <a href="france.html" class="links" id="france-link">France</a>
+                    <a href="project.html" class="links" id="india-link">India</a>
+                </div>
+                <div class="group-links">
+                    <h3 class="links-heading" id="main-page">Main Pages</h3>
+                    <a href="editor.html" class="links" id="eidtor-link">Editor</a>
+                    <a href="svg.html" class="links" id="svg-link">Website Tree</a>
+                    <a href="form.html" class="links" id="feed-link">Feedback</a>
+                    <a href="Traval.html" class="links" id="buy-link">Buy</a>
+                </div>
+            </div>
+            <div class="author">
+                <h3 class="links-heading">Created By: S.Nirahulan &copy;2020 </h3>
+            </div>
+        </footer>
+        
+        <script src="../JS/imginfo.js"></script>
+    </body>
+</html>

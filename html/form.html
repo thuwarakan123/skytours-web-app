@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title> touriam form </title>
+    <link rel="stylesheet" type="text/css" href="../css/mainpageCWweb.css">
+	 <meta charset="UTF-8">
+	<script>
+
+function radioEvent(form) () {
+  var inpObj = document.getElementById("value");
+   var inpObj = document.getElementById("value1");
+  if (!inpObj.checkValidity()) {
+    document.getElementById("demo").innerHTML = inpObj.validationMessage;
+  } else {
+    document.getElementById("demo").innerHTML = "required";
+  } 
+} 
+ 
+ function radioEvent(form) 
+
+
+{
+
+
+ for (var i = 0; i < form.radioButton.length; i++) 
+ {
+    if (form.radioButton[i].checked)
+    {
+        alert("Dear "+ document.getElementById("value").value+ "  "+document.getElementById("value1").value+"  thank you for your feedback.  you are rated our site as  " + form.radioButton[i].value + 
+		"  and your comment was  "+document.getElementById("value2").value +".")
+    }
+ }
+ }
+</script>
+
+</head>
+    <body class="formbody">
+	 <header id="headerform" >
+        <!-- Navigation Bar -->
+        <nav id="nav-barform">
+            <div class="containerform">
+	
+                <h1 class="formh1"><a href="#"><img src="../img/WhatsApp Image 2020-07-14 at 3.40.50 PM.jpeg"  width="50px" height="200px" id="logo" alt="Logo"></a></h1>
+                <ul>
+                    <li><a href="mainpagewebCW.html">home</a></li>
+                    <li><a href="imginfo.html">Gallery</a></li>
+		            <li><a href="Art & craft1.html">Buy</a></li>	
+                    <li><a href="Quiz.html">quiz</a></li>			
+                </ul>
+            </div>    
+        </nav>
+</header>
+  
+
+  <div class="row3form">
+							<div class="column3form" >
+       
+    <div class="heloform">
+	   <h2 class="formh2">hello! cutomer<br>please rate our page </h2>
+		<form>
+		<br>
+		<label for="fname"><b>First name:</b></label>
+         <input type="text"   id="value" required/>
+		 	<label for="fname"><b>last name:</b></label>
+         <input type="text"   id="value1" required/>
+		 <br>
+		
+					  <br>
+					  <label for="email"><b>Enter your email:</b></label>
+                      <input type="email" id="email" name="email">
+					  <br>
+					  <br>	              
+		 
+		<p class="formp"id="formp1">please give us your experice about this page </p>
+   <br>
+
+            <input type="radio" name= "radioButton" value= "Excellent"   /> Excellent<br/>
+<input type="radio" name="radioButton"  value="Very Good" /> Very Good <br/>
+<input type="radio" name="radioButton"  value="Good"/> Good <br/>
+<input type="radio" name="radioButton"  value="Satisfactory"/> Satisfactory
+             <br>
+ <br>
+             
+			    <p class="formf" id="formp2"><b>please give us your feedback </b></p><textarea name="message"  id="value2" rows="10" cols="70"></textarea>
+					  <br>
+					    <button  onclick="radioEvent(this.form)">submit</button>
+</form>
+		
+	
+ 	
+
+	
+</div>
+
+<img src="https___i0.wp.com_www.techtalkies365.com_wp-content_uploads_2017_10_awesomeNature-Ultra-HD-4K-Wallpapers-For-PC-1.png" width="600px" height="00px" >
+</img>
+
+<a class="ex1">
+  <div class="transbox">
+   
+	<br>
+	<p class="tressform" >
+	<span style='font-size:2.3em;'>
+	welcome to skytour
+	</span><br>
+	<br>
+	Pack your bags. We’re going on vacation!<br> skytour is Travelling is for the individual traveller, for the one who tries to avoid the crowds, for the one who loves exploring places without a tour-guide and without pick-up service at an airport. We want to bring exciting places anywhere in the world closer to our audience. Not only through our travel writing, but mostly through our travel photography, we show the world around us in a real, honest and sometimes sarcastic way. We’re excited to take a new direction with our travel writing and photography and hope you’ll enjoy our work.
+
+</p>
+
+
+ 
+</div>
+</a>
+</div></div>
+  <div class="row5form">
+							<div class="column5form" >
+								<footer id="form-footer">
+        <div class="links-containerform">
+            <div class="group-linksform">
+                <h3 class="links-headingform" id="on-this-pageform">costa rica</h3>
+                             
+                <a id="imgs-linkform" class="linksform"a href="costaricahistorical.html">historical Places</a>
+                <a id="info-linkform" class="linksform" href="nature.html" >outside</a>
+            </div>
+            <div class="group-linksform">
+                <h3 class="links-headingform" id="partB-pageform">Famous Places</h3>
+                <a href="Uk.html" class="linksform" id="uk-linkform">UK</a>
+                <a href="costarica.html" class="linksform" id="cost-linkform">Costarica</a>
+                <a href="france.html" class="linksform" id="france-linkform">France</a>
+                <a href="project.html" class="linksform" id="india-linkform">India</a>
+            </div>
+            <div class="group-linksform">
+                <h3 class="links-headingform" id="main-pageform">Main Pages</h3>
+                <a href="mainpagewebCW.html" class="linksform" id="home-linkform">Home</a>
+                <a href="Quiz.html" class="linksform" id="quiz-linkform">Quiz</a>
+				    <a href="Art & craft1.html" class="linksform" id="quiz-linkform">buy</a>
+                <a href="about us.html" class="linksform" id="editors-linkform">Editors</a>
+                <a href="svg.html" class="linksform" id="svg-linkform">Website Tree</a>
+            </div>
+        </div>
+        <div class="authorform">
+            <h5 class="formh5">Created By: rashfa razzaq &copy;2020 </h5>
+        </div>
+    </footer>
+							</div>
+       </div>
+</body>
+</html>
+
+			 
+	</body>
+
+</html>

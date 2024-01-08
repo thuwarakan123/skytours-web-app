@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+  width:100%;
+  height: auto;
+}
+
+.header_wrapper {
+  width: 95%;
+  height: 160%;
+  background:red;
+  margin: 0 auto;
+
+}
+.icon{
+  width: 30%;
+  height: 100%;
+  float: right;
+  /*background: red;*/
+}
+
+.icon a {
+  font-size: 22px;
+  margin-bottom: 30px;
+  color: black;
+  text-decoration: none;
+  margin-left: 50px;
+  position: relative;
+  top:40px;
+}
+
+.nav_search_wraper {
+  height: 45%;
+  width: 100%;
+  background: black;
+  margin:0 auto;
+}
+
+.navigation {
+  width: 75%;
+  height: 100%;
+  float: left;
+}
+
+.navigation ul {
+  padding: 0;
+}
+
+.navigation ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 30px;
+  text-align: center;
+  line-height: 80px;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color:black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.navigation ul li a:hover {
+  border-bottom: 2px solid white;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  float: left;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.column {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  height: 100%; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: auto;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+text-align: center;
+}
+h3 {
+  text-align: center;
+}
+
+h6{
+    font-size:17px;
+  font-family:cursive;
+  left:5%;
+   text-align: center;
+   color:black;
+ }
+ 
+.helo {
+  float: left;
+  width: 93%;
+  height:140px ; /* Should be removed. Only for demonstration */
+   background-color: #BFC9CA ; 
+   font-size:15px;
+    text-align: center;
+
+}

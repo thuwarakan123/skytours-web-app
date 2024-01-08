@@ -1,0 +1,722 @@
+/* =========================================================================================================================== */
+/* UOW ID: w1790287 */
+/* IIT NO: 20191022 */
+/* Name: S.Nirahulan */
+/* Part A */
+
+/* SVG */
+/* w1790287 */
+*{
+    /* Don't Delete this */
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#svg-body{
+    background: url('../img/sky.jpg') no-repeat bottom center/cover;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns:70% 30%;
+}
+#page-info-container{
+    padding: 10px;
+}
+#page-info-container #message{
+    text-align: center;
+    color: #e6eff1;
+    font-size:20px;
+    font-family:cursive;
+    margin-right: 10px;
+    padding:3px;
+} 
+#page-info-container #heading{
+    text-align: center;
+    color: #e6eff1;
+    font-size:30px;
+    font-family:cursive;
+    margin:5px;
+    margin-right: 10px;
+    text-decoration: underline;
+    padding:5px;
+} 
+#page-info-container #details{
+    text-align: center;
+    color: #e6eff1;
+    font-size:16px;
+    font-family:cursive;
+    margin:5px;
+    margin-right: 10px;
+} 
+/* For the details */
+@media only screen and (max-width:900px){
+    #page-info-container{
+        display: none;
+    }
+}
+@media only screen and (max-width:1024px) and (min-width:900px){
+    #page-info-container{
+        margin-top:100px;
+    }
+}
+@media only screen and (min-width:1025px){
+    #page-info-container{
+        margin-top:200px;
+    }
+}
+/* Gallery page */
+/* w1790287 */
+
+/* Image info */
+/* Common */
+
+#gallery-body{
+    /* Google font */
+    font-family:cursive;
+}
+#gallery-body .group-heading{
+    text-align:center;
+    display:block;
+    margin-top:30px;
+    margin-bottom:10px;
+}
+#gallery-body .more-info{
+    text-align:center;
+    display:block;
+    margin:10px;
+    font-size:14px;
+    line-height:16px;
+}
+#gallery-body .links-heading{
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    margin:5px 2px ;  
+    color:white;
+}
+
+/* Header navigation */
+#gallery-header {
+    position: relative;
+}
+#gallery-header #header{
+    overflow:auto;
+    height:100vh;
+    width:100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url('../img/Gallery.jpg') no-repeat bottom center/cover;
+    border-bottom-right-radius:95%;
+}
+#gallery-header #header #nav-bar {
+    padding:10px;
+}
+#gallery-header #header #nav-bar .container h1{
+    float: left;
+    margin:10px;
+    color:white;
+    padding:10px;
+    text-decoration:none;
+    border-radius:20px;
+}
+#gallery-header #header #nav-bar .container ul{
+    float: right;
+}
+#gallery-header #header #nav-bar .container #logo{
+    width: 80px;
+    height:80px;
+    margin-top:-16px;
+    background-color: white;
+    border-radius:100%;
+    padding: 0px;
+}
+#gallery-header #header #nav-bar .container ul li{
+    float:left;
+    list-style-type:none;
+}
+#gallery-header #header #nav-bar .container ul li a{
+    text-decoration:none;
+    color:black;
+    display:block;
+    padding:10px;
+    margin:15px;
+    margin-top:17px;
+    font-weight:bold;
+}
+#gallery-header #header #nav-bar .container ul li .nav-links{
+    color: white;
+    float: left;
+}
+#gallery-header #header #nav-bar .container ul li .dropbtn{
+    border:none;
+    font-family:cursive;
+    font-weight:bold;
+    margin:15px;
+    margin:17px;
+    padding:10px;
+    cursor: pointer;
+    outline:none;
+    display:inherit;
+}
+
+/* Drop-down */
+
+#gallery-header #header #nav-bar .container ul li .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+    top:57px;
+}
+#gallery-header #header #nav-bar .container ul li .background{
+    right:23%;
+}
+#gallery-header #header #nav-bar .container ul li .colors{
+    right:14%;
+}
+#gallery-header #header #nav-bar .container ul li .dropdown-content a{
+    float: none;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    color: white;
+}  
+#gallery-header #header #nav-bar .container ul li .dropdown-content a:hover{
+    background-color: gray;
+} 
+#gallery-header #header #nav-bar .container ul li .dropdown:hover .dropdown-content{
+    display: block;
+}
+
+/* Landing page info */
+
+#landing-page .container-1 .landing-page-info {
+    position: absolute;
+    bottom:40px;
+    right:0px;
+    border-radius: 30px;
+    padding:15px;
+}
+#landing-page .container-1 .landing-page-info .head{
+    margin-right:-5px;
+    text-align: right;
+    padding:3px;
+}
+#landing-page .container-1 .landing-page-info .message{
+    font-size: 14px;
+    padding-bottom:5px;
+}
+#landing-page .container-1 .landing-page-info #images-btn{
+    text-decoration: none;
+    font-size: 14px;
+    background-color:lightgrey;
+    border-radius:16px;
+    padding:6px;
+    color: black;
+    margin:8px auto;
+    margin-left:165px;
+    text-align: center;
+}
+#landing-page .container-1 .landing-page-info #images-btn:hover{
+    padding: 8px;
+    margin-top:18px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* First section */
+
+#first-gallery-section{
+    height:90vh;
+    width:100%;
+    padding:145px 0px;
+}
+#first-gallery-section .group-heading{
+    margin: auto;
+}
+#first-gallery-section .imgs-container{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    padding:5px;
+    width:100%;
+}
+#first-gallery-section .imgs-container .img img {
+    width:200px;
+    height:150px;
+    display:block;
+    border-radius:5px;
+    margin:5px auto;
+}
+#first-gallery-section .imgs-container .img img:hover{
+    box-shadow:10px 28px 20px 0 rgba(0, 0, 0, 0.2), 10px 26px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Second Section */
+ 
+#second-gallery-section{
+    height:100vh;
+    padding:10px;
+    margin: 50px auto;
+    padding-top:30px;
+    border-radius:20px;
+    display: none;
+    width:100%;
+}
+#second-gallery-section .group-heading{
+    margin:20px auto;
+    text-align: center;
+}
+#second-gallery-section #second-section-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height:100vh;
+    width:100%;
+}
+#second-gallery-section #second-section-container .info-container{
+    grid-column:1/span 1;
+    margin-right:20px;
+    margin-top:50px;
+}
+#second-gallery-section #second-section-container .info-container div{
+    /* padding: 30px; */
+    margin:25px auto;
+    height:25px;
+}
+#second-gallery-section #second-section-container .info-container .group{
+    font-weight: 700;
+    font-size:18px;
+}
+#second-gallery-section #second-section-container .info-container div .info{
+    font-size:15px;
+}
+#second-gallery-section #second-section-container .info-container #image-histroy{
+    height:300px;
+    display:block;
+    padding-top:6px;
+    line-height:17px;
+}
+#second-gallery-section #second-section-container .large-img-container{
+    grid-column:2 /span 2;
+    margin-top:50px;
+}
+#second-gallery-section #second-section-container .large-img-container img{
+    display: none;
+    height:50vh;
+    border-radius:20px;
+}
+
+/* Footer */
+
+#gallery-footer{
+    border-top:1px solid black;
+    width:100%;
+    padding:25px 25px 5px 25px;
+    margin-top:20px;
+    background-color: #333;
+}
+#gallery-footer .links-container{
+    display: grid;
+    column-gap:20px;
+    grid-template-columns: auto auto auto;
+    padding:10px;
+}
+#gallery-footer .links-container .group-links .links{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    display:block;
+    font-size: 14px;
+    margin:3px 2px;
+    color:white;
+}
+#gallery-footer .links-container .group-links .links:hover{
+    text-decoration: underline;
+}
+
+/* Just for landing page info */
+@media only screen and (max-height:400px) {
+    #welcome-head{
+      display: none;
+    }
+    #welcome-mess{
+        display: none;
+    }
+    #images{
+        display: none;
+    }
+}
+@media only screen and (max-width:750px) {
+    #welcome-head{
+      display: none;
+    }
+    #welcome-mess{
+        display: none;
+    }
+    #images{
+        display: none;
+    }
+}
+@media only screen and (max-width:1024px) and (min-width:751px) {
+    #welcome-head{
+      font-size: 18px;
+    }
+    #gallery-header #header{
+        height:500px;
+    }
+    #first-gallery-section{
+        height:500px;
+    }
+    #second-gallery-section{
+        height:500px;
+        margin-bottom:150px;
+    }
+}
+@media only screen and (max-width:1170px) and (min-width:1025px) {
+    #welcome-head{
+        font-size:18px;
+    }
+    #welcome-mess{
+       display: none;
+    }
+}
+@media only screen and (max-width:1300px) and (min-width:1171px){
+    #welcome-head{
+        font-size:22px;
+    }
+    #welcome-mess{
+        font-size:14px;
+    }
+    #images{
+        margin-right:500px;
+    }
+  }
+
+/* France page */
+/* w1790287 */
+
+/* All */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body */
+/* Common */
+
+#france-body{
+    font-family:cursive;
+    line-height:18px;
+    background-color:white;
+}
+#france-body .starting-text{
+    color:black;
+    background-color:rgb(113, 233, 233);
+    border-radius:40px;
+    padding:8px;
+    text-decoration: none;
+}
+#france-body .group-heading{
+    text-align:center;
+    padding:30px;
+    text-decoration:underline;
+    font-size:30px;
+    line-height:35px;
+}
+#france-body .line-breaker{
+    border-bottom:1px solid black;
+    margin:20px 10px;
+    margin-bottom:0px;
+    clear: both;
+}
+
+/* Header */
+
+#france-header{
+    background:url("../img/france-1790999_1920.jpg") no-repeat top center/cover;
+    width:100%;
+    height:100vh;
+}
+
+/* Nav-bar */
+
+#france-header #nav-bar .container h1{
+    float:left;
+    padding:20px;
+    margin:8px;
+}
+#france-header #nav-bar .container #logo{
+    width: 80px;
+    height:80px;
+    margin-top:-18px;
+    /* background-color: white;
+    border-radius:100%; */
+    padding: 0px;
+}
+#france-header  #nav-bar .container ul{
+    float:right;
+}
+#france-header  #nav-bar .container ul li{
+    float:left;
+    list-style-type:none;
+}
+#france-header  #nav-bar .container a{
+    text-decoration:none;
+    color:white;
+}
+#france-header  #nav-bar .container ul li a{
+    display:block;
+    padding:15px;
+    margin:8px 8px 0px 8px;
+    font-weight: bold;
+}
+#france-header  #nav-bar .container ul li a:hover{
+    background-color:rgb(113, 233, 233);
+    border-radius: 30px;
+    color: black;
+}
+
+/* Landing page */
+
+#france-header  #landing-page{
+    width:100%; 
+}
+#france-header  #landing-page .container{
+    padding:200px 20px;
+    text-align:center;
+}
+#france-header  #landing-page .container h1{
+    color:white;
+    padding-bottom:15px;
+    font-size:32px;
+    line-height:40px;
+}
+#france-header  #landing-page .container{
+    color:white;
+    font-size:15px;
+    line-height:25px;
+}
+#france-header  #landing-page .container .landing-page-info{
+    height:150px;
+    padding:15px auto;
+    margin-bottom:4px;
+}
+#france-header  #landing-page .container .landing-page-info p{
+    margin:6px auto;
+}
+#france-header  #landing-page .container .landing-page-info #places,#things{
+    margin-top:30px;
+    padding:4px;
+    background-color: rgb(113, 233, 233);
+    border-radius:30px;
+    text-decoration: none;
+    color:black;
+}
+#france-header  #landing-page .container .landing-page-info #places:hover,#things:hover {
+    text-decoration: underline;
+}
+
+/* First-section */
+
+#first-france-section {
+    width:100%;
+}
+
+/* first section containers */ 
+
+#first-france-section  .container{
+    position: relative;
+    margin:40px auto;
+    height:330px;
+}
+
+/* Images */
+
+#first-france-section  .container img{
+    border-radius:5px;
+    margin:0 10px;
+    width:150px;
+    height:230px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: width 1s, height 1s;
+}
+#first-france-section  .container  img:hover{
+    height:250px; 
+    width:170px;
+    box-shadow:0 22px 20px 0 rgba(0, 0, 0, 0.2), 0 26px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Articles */
+
+#first-france-section  .container .container-info h1{
+    position:absolute;
+    top:5px;
+    left:190px;
+}
+#first-france-section  .container .container-info p{
+    text-align:left;
+    position:absolute;
+    top:25px;
+    left:180px;
+    padding:10px;
+    font-size:15px;
+    line-height:20px;
+}
+
+/* Second Section */
+
+#second-france-section{
+    width:100%;
+}
+
+/* Second Section containers*/
+
+#second-france-section .container{
+    margin:20px auto;
+    display:grid;
+    grid-template-columns: auto auto;
+    height:300px;
+}
+
+/* Articles */
+
+#second-france-section .container .container-info{
+    margin:40px 20px 40px 0px;
+    padding:10px 0px;
+}
+#second-france-section .container .container-info h1{
+    text-align:left;
+    margin-left:17px;
+    line-height:30px;
+}
+#second-france-section .container .container-info p{
+    text-align:left;
+    padding:10px;
+    font-size:15px;
+    line-height:20px;
+    margin:5px;
+}
+
+/* Images */
+
+#second-france-section .container img{
+    border-radius:5px;
+    transition: width 1s, height 1s;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:150px;
+    height:230px;
+    margin:10px;
+    margin-top:55px;
+}
+#second-france-section .container img:hover{
+    height:240px; 
+    width:160px;
+    box-shadow:0 22px 20px 0 rgba(0, 0, 0, 0.2), 0 26px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Footer */
+
+#france-footer{
+    width:100%;
+    padding:25px;
+    margin-top:20px;
+    border-top:1px solid black;
+    background: url("../img/sky.jpg") no-repeat center center/cover;
+}
+#france-footer .links-container{
+    display: grid;
+    column-gap:20px;
+    grid-template-columns: auto auto auto;
+    padding:10px;
+}
+#france-footer .links-container .group-links .links-heading,.links{
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    color:white;
+}
+#france-footer .links-container .group-links .links-heading{
+    font-size:20px;
+    margin:5px 2px ;
+}
+#france-footer .links-container .group-links .links{
+    font-size: 14px;
+    margin:3px 2px;
+    color: white;
+}
+#france-footer .links-container .group-links .links:hover{
+    text-decoration: underline;
+}
+#france-footer .author h4{
+    color:white;
+    text-align: center;
+    margin-top:20px;
+}
+
+/* Editors page */
+/* w1790287 */
+
+#editor-body{
+    font-family: cursive;
+}
+#edit-section .edit-head{
+    text-align: center;
+    margin:10px;
+    font-size:18px;
+    color: black;
+}
+#edit-section  .edit-paragrapgh{
+    text-align: left;
+    padding:10px;
+}
+#edit-section  .edit-paragrapgh p{
+    font-size:16px;
+    color:black;
+    margin:auto;
+}
+#france-body .group-heading{
+    text-align:center;
+    padding:30px;
+    text-decoration:underline;
+    font-size:30px;
+    line-height:35px;
+}
+/* Footer */
+#editor-footer{
+    width:100%;
+    padding:15px;
+    margin-top:20px;
+    border-top:1px solid black;
+    margin-top:60px;
+    height:40vh;
+}
+#editor-footer .links-container{
+    display: grid;
+    column-gap:20px;
+    grid-template-columns: auto auto;
+    padding:10px;
+}
+#editor-footer .links-container .group-links .links-heading,.links{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    display:block;
+}
+#editor-footer .links-container .group-links .links-heading{
+    font-size:20px;
+    margin:5px 2px ;
+}
+#editor-footer .links-container .group-links .links{
+    font-size: 14px;
+    margin:3px 2px;
+}
+#editor-footer .links-container .group-links .links:hover{
+    text-decoration: underline;
+}
+#editor-footer .author h3{
+    color:black;
+    text-align: center;
+    margin-top:20px;
+}
+/* =========================================================================================================================== */
+
+
